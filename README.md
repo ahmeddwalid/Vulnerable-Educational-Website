@@ -10,3 +10,4 @@ courses that enroller have been enrolled into. Each instructor has unique ID, an
 
 Each course has course number, an instructor, given specialization, course hours, course content, number of enrollers, order among its specialization, and rating out of 5.
 A new Enroller can sign up to the system -by providing full name, email and password- to be able to enroll different courses or browse courses.
+![1](https://github.com/user-attachments/assets/1dc9a0c5-aa59-4b98-b7f9-02ee8969758e)
