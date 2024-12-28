@@ -24,12 +24,12 @@
 <body>
     <nav>
         <div class="container nav__container">
-            <a href="index.html"><h4>EGATOR</h4></a>
+            <a href="index.php"><h4>EGATOR</h4></a>
             <ul class="nav__menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="courses.php">Courses</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
             <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
             <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
@@ -80,7 +80,7 @@
 
 
 
-            <form action="includes/message.php" method="POST" class="contact__form">
+            <form action="comment.php" method="POST" class="contact__form">
                 <div class="form__name">
                     <input type="text" name="first" placeholder="First Name" required>
                     <input type="text" name="last" placeholder="Last Name" required>

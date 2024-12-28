@@ -27,10 +27,10 @@
         <div class="container nav__container">
             <a href="index.html" class="nav__logo"><h4>EGATOR</h4></a>
             <ul class="nav__menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="courses.php">Courses</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
             <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
             <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
@@ -59,7 +59,7 @@
     
     <section class="faqs">
     <section class="webdesigntuts-workshop">
-	<form action="" method="get">		    
+	<form action="search_filter.php" method="get">		    
 		<input type="text" name="searchinput" placeholder="What are you looking for?">		    	
 		<button name="Search">Search</button>
 	</form>
@@ -125,5 +125,12 @@
   
   
       <script src="./main.js"></script>
+
+      <?php
+  if(isset($_GET['Search'])){
+    echo "<p align='center'>The Search result for: ".$_GET['searchinput']."</p>";
+    echo "<p align='center'><i> Search Result not found </i></p>";
+  }
+  ?>
   </body>
   </html>

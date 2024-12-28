@@ -23,7 +23,7 @@
 <body>
     <div class="center">
         <h1>REGISTER</h1>
-        <form method="post">
+        <form action="signup_db.php" method="post">
           <div class="txt_field">
             <input type="text" name = "Name" minlength = "3" required>
             <span></span>

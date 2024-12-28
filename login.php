@@ -23,7 +23,7 @@
 <body>
     <div class="center">
         <h1>LOGIN</h1>
-        <form method="post" action="">
+        <form method="post" action="login_db.php">
           <div class="txt_field">
             <input type="text" name="email" required>
             <span></span>
